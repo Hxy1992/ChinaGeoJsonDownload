@@ -2,6 +2,8 @@
 
 > 下载中国省份、城市的边界geojson数据
 
+> 数据来源地址：http://datav.aliyun.com/portal/school/atlas/area_selector，可修改URL来下载是否包含子区域的json文件
+
 ## Build Setup
 
 ``` bash
