@@ -6,7 +6,9 @@
     "download": "node ./download.js"
   },
   "devDependencies": {
-    "fs-extra": "^10.0.0"
+    "chalk": "^4.1.0",
+    "fs-extra": "^10.0.0",
+    "husky": "^4.2.3"
   },
   "browserslist": [
     "> 1%",
@@ -15,5 +17,10 @@
   "engines": {
     "node": ">=8.9",
     "npm": ">= 3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "FORCE_COLOR=1 node script/verify-commit.js"
+    }
   }
 }
