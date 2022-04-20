@@ -1,0 +1,19 @@
+{
+  "name": "china-geojson-download",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "download": "node ./download.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  }
+}
